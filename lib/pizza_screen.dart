@@ -377,9 +377,9 @@ class _PizzaScreenState extends State<PizzaScreen> {
                   child: ElevatedButton(
                     onPressed: () {},
                     child: const Text("Заказать",
-                      style: const TextStyle(
-                        fontSize: 16,)
-                    ),
+                        style: TextStyle(
+                          fontSize: 16,
+                        )),
                     style: ElevatedButton.styleFrom(
                       primary: const Color(0xFF0079D0),
                       shape: RoundedRectangleBorder(
@@ -388,8 +388,8 @@ class _PizzaScreenState extends State<PizzaScreen> {
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 20,
+                const SizedBox(
+                  height: 30,
                 )
               ]),
             ]),
